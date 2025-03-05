@@ -177,23 +177,23 @@ elseif vim.g.material_style == "design" then
 	colors.editor.none = "NONE" -- No color applied
 
 	-- Syntax highlighting colors based on shell theme
-	colors.syntax.comments = "#464B5D" -- Comment color from disabled UI
-	colors.syntax.keywords = "#fc226e" -- Using palette 5 (pink/magenta)
-	colors.syntax.functions = "#37b6ff" -- Palette 4 (blue)
-	colors.syntax.variables = "#5cf19e" -- Palette 2 (green)
-	colors.syntax.constants = "#fed032" -- Palette 3 (yellow)
-	colors.syntax.strings = "#adf7be" -- Palette 10 (light green)
-	colors.syntax.operators = "#fc3841" -- Palette 1 (red)
-	colors.syntax.numbers = "#fee16c" -- Palette 11 (light yellow)
-	colors.syntax.types = "#59ffd1" -- Palette 6 (cyan)
-	colors.syntax.punctuation = "#70cfff" -- Palette 12 (light blue)
-	colors.syntax.specials = "#fc669b" -- Palette 13 (bright magenta)
+	-- colors.syntax.comments = "#464B5D" -- Comment color from disabled UI
+	-- colors.syntax.keywords = "#fc226e" -- Using palette 5 (pink/magenta)
+	-- colors.syntax.functions = "#37b6ff" -- Palette 4 (blue)
+	-- colors.syntax.variables = "#5cf19e" -- Palette 2 (green)
+	-- colors.syntax.constants = "#fed032" -- Palette 3 (yellow)
+	-- colors.syntax.strings = "#adf7be" -- Palette 10 (light green)
+	-- colors.syntax.operators = "#fc3841" -- Palette 1 (red)
+	-- colors.syntax.numbers = "#fee16c" -- Palette 11 (light yellow)
+	-- colors.syntax.types = "#59ffd1" -- Palette 6 (cyan)
+	-- colors.syntax.punctuation = "#70cfff" -- Palette 12 (light blue)
+	-- colors.syntax.specials = "#fc669b" -- Palette 13 (bright magenta)
 
 	-- Cursor and selection
-	colors.cursor.color = "#eaeaea" -- Cursor color
-	colors.cursor.text = "#000000" -- Cursor text color
-	colors.cursor.selection_bg = "#4e6a78" -- Selection background
-	colors.cursor.selection_fg = "#e7ebed" -- Selection foreground
+	-- colors.cursor.color = "#eaeaea" -- Cursor color
+	-- colors.cursor.text = "#000000" -- Cursor text color
+	-- colors.cursor.selection_bg = "#4e6a78" -- Selection background
+	-- colors.cursor.selection_fg = "#e7ebed" -- Selection foreground
 else
 	vim.g.material_style = "oceanic"
 	-- Oceanic theme style
