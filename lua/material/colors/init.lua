@@ -165,7 +165,7 @@ elseif vim.g.material_style == "design" then
 	colors.main.blue = "#37b6ff"
 	colors.main.paleblue = "#70cfff"
 	colors.main.cyan = "#59ffd1"
-	colors.main.purple = "#c792ea"
+	colors.main.purple = "#fc226e"
 	colors.main.orange = "#fed032"
 	colors.main.pink = "#fc669b"
 
