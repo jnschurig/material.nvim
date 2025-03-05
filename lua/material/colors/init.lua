@@ -159,21 +159,47 @@ elseif vim.g.material_style == "deep ocean" then
 elseif vim.g.material_style == "design" then
 	-- Design theme style
 
-	colors.editor.bg = "#0F111A"
-	colors.editor.bg_alt = "#090B10"
-	colors.editor.fg = "#A6ACCD"
-	-- colors.editor.fg_darker    = "#8DA3CA" -- TODO
-	colors.editor.fg_dark = "#717CB4"
-	colors.editor.selection = "#1F2233"
-	colors.editor.contrast = "#090B10"
-	colors.editor.active = "#1A1C25"
-	colors.editor.border = "#232637"
-	colors.editor.line_numbers = "#3B3F51"
-	colors.editor.highlight = "#1F2233"
-	colors.editor.disabled = "#464B5D"
-	colors.editor.accent = "#84FFFF"
-	colors.editor.none = "NONE"
-	colors.syntax.comments = "#464B5D"
+	colors = {}
+
+	-- Editor colors adapted from shell theme
+	colors.editor = {
+		bg = "#1d262a", -- Background from shell theme
+		bg_alt = "#4e6a78", -- Selection background for slight variation
+		fg = "#e7ebed", -- Foreground from shell theme
+		fg_dark = "#a1b0b8", -- Closest match to dimmer text
+		selection = "#4e6a78", -- Selection background
+		contrast = "#0e1315", -- Deep contrast, slightly darker than bg
+		active = "#1A1C25", -- Active element background
+		border = "#232637", -- Border color for UI elements
+		line_numbers = "#428f64", -- Approximate match for a subtle number color
+		highlight = "#1F2233", -- Highlight color
+		disabled = "#464B5D", -- Disabled UI elements
+		accent = "#70cfff", -- Accent color based on palette 12
+		none = "NONE", -- No color applied
+	}
+
+	-- Syntax highlighting colors based on shell theme
+	colors.syntax = {
+		comments = "#464B5D", -- Comment color from disabled UI
+		keywords = "#fc226e", -- Using palette 5 (pink/magenta)
+		functions = "#37b6ff", -- Palette 4 (blue)
+		variables = "#5cf19e", -- Palette 2 (green)
+		constants = "#fed032", -- Palette 3 (yellow)
+		strings = "#adf7be", -- Palette 10 (light green)
+		operators = "#fc3841", -- Palette 1 (red)
+		numbers = "#fee16c", -- Palette 11 (light yellow)
+		types = "#59ffd1", -- Palette 6 (cyan)
+		punctuation = "#70cfff", -- Palette 12 (light blue)
+		specials = "#fc669b", -- Palette 13 (bright magenta)
+	}
+
+	-- Cursor and selection
+	colors.cursor = {
+		color = "#eaeaea", -- Cursor color
+		text = "#000000", -- Cursor text color
+		selection_bg = "#4e6a78", -- Selection background
+		selection_fg = "#e7ebed", -- Selection foreground
+	}
 else
 	vim.g.material_style = "oceanic"
 	-- Oceanic theme style
