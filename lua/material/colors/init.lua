@@ -207,29 +207,28 @@ elseif vim.g.material_style == "design" then
 -- selection-background = #4e6a78
 -- selection-foreground = #e7ebed
 
-palette = 0=#000000
-palette = 1=#ff5370
-palette = 2=#c3e88d
-palette = 3=#ffcb6b
-palette = 4=#82aaff
-palette = 5=#c792ea
-palette = 6=#89ddff
-palette = 7=#ffffff
-palette = 8=#545454
-palette = 9=#ff5370
-palette = 10=#c3e88d
-palette = 11=#ffcb6b
-palette = 12=#82aaff
-palette = 13=#c792ea
-palette = 14=#89ddff
-palette = 15=#ffffff
-background = #212121
-foreground = #eeffff
-cursor-color = #ffffff
-cursor-text = #ffffff
-selection-background = #eeffff
-selection-foreground = #545454
-
+-- palette = 0=#000000
+-- palette = 1=#ff5370
+-- palette = 2=#c3e88d
+-- palette = 3=#ffcb6b
+-- palette = 4=#82aaff
+-- palette = 5=#c792ea
+-- palette = 6=#89ddff
+-- palette = 7=#ffffff
+-- palette = 8=#545454
+-- palette = 9=#ff5370
+-- palette = 10=#c3e88d
+-- palette = 11=#ffcb6b
+-- palette = 12=#82aaff
+-- palette = 13=#c792ea
+-- palette = 14=#89ddff
+-- palette = 15=#ffffff
+-- background = #212121
+-- foreground = #eeffff
+-- cursor-color = #ffffff
+-- cursor-text = #ffffff
+-- selection-background = #eeffff
+-- selection-foreground = #545454
 else
 	vim.g.material_style = "oceanic"
 	-- Oceanic theme style
