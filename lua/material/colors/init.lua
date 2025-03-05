@@ -167,7 +167,7 @@ elseif vim.g.material_style == "design" then
 	colors.editor.contrast = "#0e1315"
 	colors.editor.active = "#1A1C25"
 	colors.editor.border = "#232637"
-	colors.editor.line_numbers = "#a12c55"
+	colors.editor.line_numbers = "#e17435"
 	colors.editor.highlight = "#1F2233"
 	colors.editor.disabled = "#464B5D"
 	colors.editor.accent = "#70cfff"
