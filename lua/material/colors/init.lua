@@ -159,6 +159,16 @@ elseif vim.g.material_style == "deep ocean" then
 elseif vim.g.material_style == "design" then
 	-- Design theme style
 
+	colors.main.red = "#fc3841"
+	colors.main.green = "#5cf19e"
+	colors.main.yellow = "#fee16c"
+	colors.main.blue = "#37b6ff"
+	colors.main.paleblue = "#70cfff"
+	colors.main.cyan = "#59ffd1"
+	colors.main.purple = "#c792ea"
+	colors.main.orange = "#fed032"
+	colors.main.pink = "#fc669b"
+
 	colors.editor.bg = "#1d262a"
 	colors.editor.bg_alt = "#4e6a78"
 	colors.editor.fg = "#e7ebed"
@@ -173,16 +183,6 @@ elseif vim.g.material_style == "design" then
 	colors.editor.accent = "#fdcc09"
 	-- colors.editor.none = "NONE"
 	colors.syntax.comments = "#a1b0b8"
-
-	colors.main.red = "#fc3841"
-	colors.main.green = "#5cf19e"
-	colors.main.yellow = "#fee16c"
-	colors.main.blue = "#37b6ff"
-	colors.main.paleblue = "#70cfff"
-	colors.main.cyan = "#59ffd1"
-	colors.main.purple = "#c792ea"
-	colors.main.orange = "#fed032"
-	colors.main.pink = "#fc669b"
 
 -- palette = 0=#435b67
 -- palette = 1=#fc3841
