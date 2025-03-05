@@ -172,7 +172,7 @@ elseif vim.g.material_style == "design" then
 	colors.editor.disabled = "#464B5D"
 	colors.editor.accent = "#70cfff"
 	-- colors.editor.none = "NONE"
-	colors.syntax.comments = "#adf7be"
+	colors.syntax.comments = "#a1b0b8"
 
 	colors.main.red = "#fc3841"
 	colors.main.green = "#5cf19e"
