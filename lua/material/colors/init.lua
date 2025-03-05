@@ -167,10 +167,10 @@ elseif vim.g.material_style == "design" then
 	colors.editor.contrast = "#0e1315"
 	colors.editor.active = "#1A1C25"
 	colors.editor.border = "#232637"
-	colors.editor.line_numbers = "#e17435"
+	colors.editor.line_numbers = "#c792ea"
 	colors.editor.highlight = "#1F2233"
 	colors.editor.disabled = "#464B5D"
-	colors.editor.accent = "#70cfff"
+	colors.editor.accent = "#fdcc09"
 	-- colors.editor.none = "NONE"
 	colors.syntax.comments = "#a1b0b8"
 
@@ -180,7 +180,7 @@ elseif vim.g.material_style == "design" then
 	colors.main.blue = "#37b6ff"
 	colors.main.paleblue = "#70cfff"
 	colors.main.cyan = "#59ffd1"
-	colors.main.purple = "#fc226e"
+	colors.main.purple = "#c792ea"
 	colors.main.orange = "#fed032"
 	colors.main.pink = "#fc669b"
 
@@ -206,6 +206,30 @@ elseif vim.g.material_style == "design" then
 -- cursor-text = #000000
 -- selection-background = #4e6a78
 -- selection-foreground = #e7ebed
+
+palette = 0=#000000
+palette = 1=#ff5370
+palette = 2=#c3e88d
+palette = 3=#ffcb6b
+palette = 4=#82aaff
+palette = 5=#c792ea
+palette = 6=#89ddff
+palette = 7=#ffffff
+palette = 8=#545454
+palette = 9=#ff5370
+palette = 10=#c3e88d
+palette = 11=#ffcb6b
+palette = 12=#82aaff
+palette = 13=#c792ea
+palette = 14=#89ddff
+palette = 15=#ffffff
+background = #212121
+foreground = #eeffff
+cursor-color = #ffffff
+cursor-text = #ffffff
+selection-background = #eeffff
+selection-foreground = #545454
+
 else
 	vim.g.material_style = "oceanic"
 	-- Oceanic theme style
