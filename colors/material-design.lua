@@ -6,6 +6,6 @@ package.loaded["material.functions"] = nil
 package.loaded["material.highlights"] = nil
 package.loaded["material.highlights.plugins"] = nil
 
-vim.g.material_style = "design"
+vim.g.material_style = "design colors"
 
 require("material.util").load()
