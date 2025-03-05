@@ -156,8 +156,8 @@ elseif vim.g.material_style == "deep ocean" then
 	colors.editor.disabled = "#464B5D"
 	colors.editor.accent = "#84FFFF"
 	colors.syntax.comments = "#464B5D"
-elseif vim.g.material_style == "design" then
-	-- Design theme style
+elseif vim.g.material_style == "design colors" then
+	-- DesignColors theme style
 
 	colors.main.red = "#fc3841"
 	colors.main.green = "#5cf19e"
@@ -177,7 +177,7 @@ elseif vim.g.material_style == "design" then
 	colors.editor.contrast = "#0e1315"
 	colors.editor.active = "#1A1C25"
 	colors.editor.border = "#232637"
-	colors.editor.line_numbers = "#c792ea"
+	colors.editor.line_numbers = "#a781c0"
 	colors.editor.highlight = "#1F2233"
 	colors.editor.disabled = "#464B5D"
 	colors.editor.accent = "#fdcc09"
