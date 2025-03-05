@@ -159,41 +159,53 @@ elseif vim.g.material_style == "deep ocean" then
 elseif vim.g.material_style == "design" then
 	-- Design theme style
 
-	-- colors = {}
+	colors.editor.bg = "#1d262a"
+	colors.editor.bg_alt = "#4e6a78"
+	colors.editor.fg = "#e7ebed"
+	colors.editor.fg_dark = "#e7ebed"
+	colors.editor.selection = "#4e6a78"
+	colors.editor.contrast = "#0e1315"
+	colors.editor.active = "#1A1C25"
+	colors.editor.border = "#232637"
+	colors.editor.line_numbers = "#842043"
+	colors.editor.highlight = "#1F2233"
+	colors.editor.disabled = "#464B5D"
+	colors.editor.accent = "#70cfff"
+	-- colors.editor.none = "NONE"
+	colors.syntax.comments = "#adf7be"
 
-	-- Editor colors adapted from shell theme
-	colors.editor.bg = "#1d262a" -- Background from shell theme
-	colors.editor.bg_alt = "#4e6a78" -- Selection background for slight variation
-	colors.editor.fg = "#e7ebed" -- Foreground from shell theme
-	colors.editor.fg_dark = "#a1b0b8" -- Closest match to dimmer text
-	colors.editor.selection = "#4e6a78" -- Selection background
-	colors.editor.contrast = "#0e1315" -- Deep contrast, slightly darker than bg
-	colors.editor.active = "#1A1C25" -- Active element background
-	colors.editor.border = "#232637" -- Border color for UI elements
-	colors.editor.line_numbers = "#428f64" -- Approximate match for a subtle number color
-	colors.editor.highlight = "#1F2233" -- Highlight color
-	colors.editor.disabled = "#464B5D" -- Disabled UI elements
-	colors.editor.accent = "#70cfff" -- Accent color based on palette 12
-	colors.editor.none = "NONE" -- No color applied
+	colors.main.red = "#fc3841"
+	colors.main.green = "#5cf19e"
+	colors.main.yellow = "#fee16c"
+	colors.main.blue = "#37b6ff"
+	colors.main.paleblue = "#70cfff"
+	colors.main.cyan = "#59ffd1"
+	colors.main.purple = "#fc226e"
+	colors.main.orange = "#fed032"
+	colors.main.pink = "#fc669b"
 
-	-- Syntax highlighting colors based on shell theme
-	-- colors.syntax.comments = "#464B5D" -- Comment color from disabled UI
-	-- colors.syntax.keywords = "#fc226e" -- Using palette 5 (pink/magenta)
-	-- colors.syntax.functions = "#37b6ff" -- Palette 4 (blue)
-	-- colors.syntax.variables = "#5cf19e" -- Palette 2 (green)
-	-- colors.syntax.constants = "#fed032" -- Palette 3 (yellow)
-	-- colors.syntax.strings = "#adf7be" -- Palette 10 (light green)
-	-- colors.syntax.operators = "#fc3841" -- Palette 1 (red)
-	-- colors.syntax.numbers = "#fee16c" -- Palette 11 (light yellow)
-	-- colors.syntax.types = "#59ffd1" -- Palette 6 (cyan)
-	-- colors.syntax.punctuation = "#70cfff" -- Palette 12 (light blue)
-	-- colors.syntax.specials = "#fc669b" -- Palette 13 (bright magenta)
-
-	-- Cursor and selection
-	-- colors.cursor.color = "#eaeaea" -- Cursor color
-	-- colors.cursor.text = "#000000" -- Cursor text color
-	-- colors.cursor.selection_bg = "#4e6a78" -- Selection background
-	-- colors.cursor.selection_fg = "#e7ebed" -- Selection foreground
+-- palette = 0=#435b67
+-- palette = 1=#fc3841
+-- palette = 2=#5cf19e
+-- palette = 3=#fed032
+-- palette = 4=#37b6ff
+-- palette = 5=#fc226e
+-- palette = 6=#59ffd1
+-- palette = 7=#ffffff
+-- palette = 8=#a1b0b8
+-- palette = 9=#fc746d
+-- palette = 10=#adf7be
+-- palette = 11=#fee16c
+-- palette = 12=#70cfff
+-- palette = 13=#fc669b
+-- palette = 14=#9affe6
+-- palette = 15=#ffffff
+-- background = #1d262a
+-- foreground = #e7ebed
+-- cursor-color = #eaeaea
+-- cursor-text = #000000
+-- selection-background = #4e6a78
+-- selection-foreground = #e7ebed
 else
 	vim.g.material_style = "oceanic"
 	-- Oceanic theme style
