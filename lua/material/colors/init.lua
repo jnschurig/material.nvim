@@ -190,7 +190,7 @@ elseif vim.g.material_style == "design" then
 	-- colors.syntax.specials = "#fc669b" -- Palette 13 (bright magenta)
 
 	-- Cursor and selection
-	-- colors.cursor.color = "#eaeaea" -- Cursor color
+	colors.cursor.color = "#eaeaea" -- Cursor color
 	-- colors.cursor.text = "#000000" -- Cursor text color
 	-- colors.cursor.selection_bg = "#4e6a78" -- Selection background
 	-- colors.cursor.selection_fg = "#e7ebed" -- Selection foreground
