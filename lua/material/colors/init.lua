@@ -172,7 +172,7 @@ elseif vim.g.material_style == "design colors" then
 	colors.editor.bg = "#1d262a"
 	colors.editor.bg_alt = "#435b67"
 	colors.editor.fg = "#e7ebed"
-	colors.editor.fg_dark = "#d4d5d5"
+	colors.editor.fg_dark = "#e7ebed"
 	colors.editor.selection = "#4e6a78"
 	colors.editor.contrast = "#0e1315"
 	colors.editor.active = "#1a1c25"
