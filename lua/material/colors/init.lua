@@ -170,25 +170,22 @@ elseif vim.g.material_style == "design colors" then
 	colors.main.pink = "#fc669b"
 
 	colors.editor.bg = "#1d262a"
-	-- colors.editor.bg_alt = "#4e6a78"
 	colors.editor.bg_alt = "#435b67"
-	-- colors.editor.fg = "#e7ebed"
-	-- colors.editor.fg_dark = "#e7ebed"
-	colors.editor.fg = "#cea7e8"
-	colors.editor.fg_dark = "#a781c0"
+	colors.editor.fg = "#e7ebed"
+	colors.editor.fg_dark = "#d4d5d5"
 	colors.editor.selection = "#4e6a78"
 	colors.editor.contrast = "#0e1315"
-	colors.editor.active = "#1A1C25"
+	colors.editor.active = "#1a1c25"
 	colors.editor.border = "#232637"
 	colors.editor.line_numbers = "#a781c0"
-	colors.editor.highlight = "#1F2233"
-	colors.editor.disabled = "#464B5D"
+	colors.editor.highlight = "#1f2233"
+	colors.editor.disabled = "#464b5d"
 	colors.editor.accent = "#fdcc09"
-	-- colors.editor.none = "NONE"
+	-- colors.editor.none = "none"
 	colors.syntax.comments = "#a1b0b8"
 else
 	vim.g.material_style = "oceanic"
-	-- Oceanic theme style
+	-- oceanic theme style
 
 	colors.editor.bg = "#25363B"
 	colors.editor.bg_alt = "#1C2C30"
